@@ -8,7 +8,7 @@ export function FloatingCTA() {
   return (
     <>
       {/* Desktop Floating Actions */}
-      <div className="fixed bottom-6 right-6 z-50 flex flex-col gap-4 items-center">
+      <div className="hidden md:flex fixed bottom-6 right-6 z-50 flex-col gap-4 items-center">
         <motion.div
           initial={{ scale: 0, y: 20 }}
           animate={{ scale: 1, y: 0 }}
